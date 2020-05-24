@@ -6,8 +6,7 @@ def turn(board)
   if valid_move?(board, index) == true
     move(board, index, position="X")
   else
-    puts ""
-  
+    turn(board)
 end
 
 #   #ask for input DONE
