@@ -7,6 +7,7 @@ def turn(board)
     move(board, index, position ="X")
   else
     turn(board)
+  end
 end
 
 #   #ask for input DONE
