@@ -14,11 +14,13 @@ end
 #   ask for input again until you get a valid input
 # end
 
-def 
+def input_to_index(input)
+  input.to_i - 1
+end
 
 def move(board, user_input, position = X)
-  input_to_index = user_input.to_i - 1
-  board[input_to_index] = position
+  index = input_to_index(user_input)
+  board[index] = position
 end
   
   
