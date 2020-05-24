@@ -1,4 +1,5 @@
-def turn 
+def turn(board)
+  puts "Please enter 1-9:"
 end
 
 def move(board, user_input, position = X)
