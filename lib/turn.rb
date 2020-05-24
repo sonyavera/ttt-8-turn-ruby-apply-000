@@ -2,6 +2,16 @@ def turn(board)
   puts "Please enter 1-9:"
 end
 
+#   #ask for input DONE
+# get input
+# convert input to index
+# if index is valid
+#   make the move for index
+#   show the board
+# else
+#   ask for input again until you get a valid input
+# end
+
 def move(board, user_input, position = X)
   input_to_index = user_input.to_i - 1
   board[input_to_index] = position
@@ -38,12 +48,3 @@ end
   
   
   
-#   #ask for input
-# get input
-# convert input to index
-# if index is valid
-#   make the move for index
-#   show the board
-# else
-#   ask for input again until you get a valid input
-# end
