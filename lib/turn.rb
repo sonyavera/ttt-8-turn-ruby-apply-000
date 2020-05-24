@@ -2,7 +2,7 @@ def turn
 end
 
 def move(board, user_input, position = X)
-  user_input.to_integer
+  user_input.to_i 
   board[index] = position
 end
   
