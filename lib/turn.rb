@@ -1,5 +1,7 @@
 def turn(board)
   puts "Please enter 1-9:"
+  answer = gets.chomp
+  
 end
 
 #   #ask for input DONE
