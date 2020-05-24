@@ -25,7 +25,6 @@ def input_to_index(input)
 end
 
 def move(board, index, position = "X")
-  index = input_to_index(user_input)
   board[index] = position
 end
   
